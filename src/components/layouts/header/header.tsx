@@ -80,9 +80,9 @@ function Header() {
         className="block relative md:hidden lg:hidden text-2xl "
       />
 
-      <div className="absolute block md:hidden lg:hidden text-white ">
+      <div className="absolute block md:hidden lg:hidden text-white w-full">
         {isOpen && (
-          <div className="absolute left-0 mt-5 w-[400px] sm:w-[600px] bg-[#277eb0] rounded-lg shadow-lg z-10 ">
+          <div className="absolute left-0 mt-5 w-[80%] sm:w-[600px] bg-[#277eb0] rounded-lg shadow-lg z-10 ">
             <nav>
               <ul className="flex flex-col items-center text-center gap-4">
                 {accounts.map((account) => (

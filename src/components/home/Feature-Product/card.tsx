@@ -12,11 +12,14 @@ function Card({ products }: { products: Products[] }) {
   return (
     <div className="grid items-center justify-center grid-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-8 p-10">
       {products.map((product) => (
-        <div key={product.id} className="flex flex-col gap-3 text-lg">
+        <div
+          key={product.id}
+          className="flex flex-col items-center md:items-start gap-3 text-lg w-96 p-3 sm:w-full shadow-md"
+        >
           <Image
             src={product.image}
             alt={product.name}
-            width={250}
+            width={400}
             height={200}
             className="py-2"
           />

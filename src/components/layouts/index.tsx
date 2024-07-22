@@ -6,12 +6,12 @@ import FeatureProduct from "../home/Feature-Product/featureProduct";
 
 function Layouts() {
   return (
-    <>
+    <div className="max-w-screen-2xl mx-auto">
       <Header />
       <Banner />
       <OfferCard />
       <FeatureProduct />
-    </>
+    </div>
   );
 }
 
