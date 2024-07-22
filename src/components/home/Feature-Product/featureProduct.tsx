@@ -2,7 +2,7 @@ import Card from "./card";
 const products = [
   {
     id: 1,
-    title: "DNK Blue Shoes",
+    title: "DNK Black Shoes",
     name: "Men",
     price: 100,
     image:
@@ -10,7 +10,7 @@ const products = [
   },
   {
     id: 2,
-    title: "Dark Brown Jeans",
+    title: "Dark Blue Jeans",
     name: "Men",
     price: 200,
     image:
@@ -18,7 +18,7 @@ const products = [
   },
   {
     id: 3,
-    title: "Blue Denim Jeans",
+    title: "Black Denim Jeans",
     name: "Men",
     price: 300,
     image:
@@ -26,7 +26,7 @@ const products = [
   },
   {
     id: 4,
-    title: "Basic Gray Jeans",
+    title: "Basic Blue Jeans",
     name: "Women",
     price: 400,
     image:
@@ -34,7 +34,7 @@ const products = [
   },
   {
     id: 5,
-    title: "Blue Denim Shorts",
+    title: "Gray Denim Shorts",
     name: "Women",
     price: 500,
     image:
@@ -66,7 +66,7 @@ const products = [
   },
   {
     id: 9,
-    title: "Dark Brown Jeans",
+    title: "Dark Blue Jeans",
     name: "Men",
     price: 200,
     image:
@@ -74,7 +74,7 @@ const products = [
   },
   {
     id: 10,
-    title: "DNK Blue Shoes",
+    title: "DNK Black Shoes",
     name: "Men",
     price: 100,
     image:
