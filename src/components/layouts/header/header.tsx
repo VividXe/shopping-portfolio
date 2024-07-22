@@ -33,16 +33,18 @@ function Header() {
   return (
     <div className="flex items-center justify-between bg-[#2B7FAF] p-10">
       <div className="flex items-center gap-10">
-        {/* logo */}
         <div>
           <h1 className="text-4xl font-mono">DHK</h1>
         </div>
-        {/* right */}
+
         <div className="hidden md:flex lg:flex">
           <nav>
             <ul className="flex items-center gap-4 ">
               {accounts.map((account) => (
-                <li key={account.key}>
+                <li
+                  className="hover:text-gray-200 cursor-pointer"
+                  key={account.key}
+                >
                   <p>{account.name}</p>
                 </li>
               ))}
@@ -50,17 +52,23 @@ function Header() {
           </nav>
         </div>
       </div>
-      {/* left */}
+
       <div className="hidden md:block lg:block">
         <nav>
           <ul className="flex items-center gap-4">
-            <li>ABOUT</li>
-            <li>CONTACT US</li>
-            <li>$0.00</li>
-            <li>
+            <li className="hover:text-gray-200 cursor-pointer">
+              ABOUT
+            </li>
+            <li className="hover:text-gray-200 cursor-pointer">
+              CONTACT US
+            </li>
+            <li className="hover:text-gray-200 cursor-pointer">
+              $0.00
+            </li>
+            <li className="hover:text-gray-200 cursor-pointer">
               <GiShoppingBag />
             </li>
-            <li>
+            <li className="hover:text-gray-200 cursor-pointer">
               <FaUser />
             </li>
           </ul>

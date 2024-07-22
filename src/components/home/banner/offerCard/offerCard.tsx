@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import Button from "@/components/button/button";
 
 function OfferCard() {
@@ -10,7 +9,7 @@ function OfferCard() {
           src="/women-fashion-free-img.jpg"
           width={400}
           height={400}
-          alt=""
+          alt="image"
         />
         <div
           className="absolute bottom-1
@@ -48,7 +47,7 @@ function OfferCard() {
           src="/footwear-free-img.jpg"
           width={400}
           height={400}
-          alt=""
+          alt="image"
         />
         <div
           className="absolute bottom-1
