@@ -35,9 +35,7 @@ function Header() {
       <div className="flex items-center justify-between p-10 max-w-screen-2xl mx-auto">
         <div className="flex items-center gap-10">
           <div>
-            <a href="#" className="text-4xl font-mono">
-              DHK
-            </a>
+            <a className="text-4xl font-mono">DHK</a>
           </div>
 
           <div className="hidden md:flex lg:flex">
@@ -45,7 +43,6 @@ function Header() {
               <ul className="flex items-center gap-4 ">
                 {accounts.map((account) => (
                   <a
-                    href="#"
                     className="hover:text-gray-200 cursor-pointer"
                     key={account.key}
                   >
@@ -60,34 +57,19 @@ function Header() {
         <div className="hidden md:block lg:block">
           <nav>
             <ul className="flex items-center gap-4">
-              <a
-                href="#"
-                className="hover:text-gray-200 cursor-pointer"
-              >
+              <a className="hover:text-gray-200 cursor-pointer">
                 ABOUT
               </a>
-              <a
-                href="#"
-                className="hover:text-gray-200 cursor-pointer"
-              >
+              <a className="hover:text-gray-200 cursor-pointer">
                 CONTACT US
               </a>
-              <a
-                href="#"
-                className="hover:text-gray-200 cursor-pointer"
-              >
+              <a className="hover:text-gray-200 cursor-pointer">
                 $0.00
               </a>
-              <a
-                href="#"
-                className="hover:text-gray-200 cursor-pointer"
-              >
+              <a className="hover:text-gray-200 cursor-pointer">
                 <GiShoppingBag />
               </a>
-              <a
-                href="#"
-                className="hover:text-gray-200 cursor-pointer"
-              >
+              <a className="hover:text-gray-200 cursor-pointer">
                 <FaUser />
               </a>
             </ul>

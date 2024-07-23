@@ -4,7 +4,7 @@ import Button from "@/components/button/button";
 function OfferCard() {
   return (
     <div className="flex flex-col items-center lg:flex-row gap-8 container mx-auto p-10">
-      <a href="#" className="relative">
+      <a className="relative">
         <Image
           src="/women-fashion-free-img.jpg"
           width={400}
@@ -23,7 +23,7 @@ function OfferCard() {
           <Button>Shop Now</Button>
         </div>
       </a>
-      <a href="#" className="relative">
+      <a className="relative">
         <Image
           src="/men-fashion-free-img.jpg"
           width={400}
@@ -42,7 +42,7 @@ function OfferCard() {
           <Button>Shop Now</Button>
         </div>
       </a>
-      <a href="#" className="relative">
+      <a className="relative">
         <Image
           src="/footwear-free-img.jpg"
           width={400}
