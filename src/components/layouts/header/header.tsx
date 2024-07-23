@@ -31,16 +31,13 @@ function Header() {
   };
 
   return (
-    <div className=" bg-[#2B7FAF]">
+    <div className="bg-[#2B7FAF]">
       <div className="flex items-center justify-between p-10 max-w-screen-2xl mx-auto">
         <div className="flex items-center gap-10">
-          <div>
-            <a className="text-4xl font-mono">DHK</a>
-          </div>
-
+          <a className="text-4xl font-mono">DHK</a>
           <div className="hidden md:flex lg:flex">
             <nav>
-              <ul className="flex items-center gap-4 ">
+              <div className="flex items-center gap-4">
                 {accounts.map((account) => (
                   <a
                     className="hover:text-gray-200 cursor-pointer"
@@ -49,14 +46,14 @@ function Header() {
                     <a>{account.name}</a>
                   </a>
                 ))}
-              </ul>
+              </div>
             </nav>
           </div>
         </div>
 
         <div className="hidden md:block lg:block">
           <nav>
-            <ul className="flex items-center gap-4">
+            <div className="flex items-center gap-4">
               <a className="hover:text-gray-200 cursor-pointer">
                 ABOUT
               </a>
@@ -72,7 +69,7 @@ function Header() {
               <a className="hover:text-gray-200 cursor-pointer">
                 <FaUser />
               </a>
-            </ul>
+            </div>
           </nav>
         </div>
 
@@ -85,19 +82,19 @@ function Header() {
           {isOpen && (
             <div className="absolute mt-5 w-[75%] bg-[#277eb0] rounded-lg shadow-lg">
               <nav>
-                <ul className="flex flex-col items-center text-center gap-4">
+                <div className="flex flex-col items-center text-center gap-4">
                   {accounts.map((account) => (
-                    <li
+                    <div
                       className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]"
                       key={account.key}
                     >
-                      <p>{account.name}</p>
-                    </li>
+                      <a>{account.name}</a>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </nav>
               <nav className=" pt-5 md:p-0 lg:p-0">
-                <ul className="flex flex-col items-center text-center gap-4">
+                <div className="flex flex-col items-center text-center gap-4">
                   <a className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]">
                     ABOUT
                   </a>
@@ -113,7 +110,7 @@ function Header() {
                   <a className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center">
                     <FaUser />
                   </a>
-                </ul>
+                </div>
               </nav>
             </div>
           )}
