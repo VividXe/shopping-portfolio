@@ -46,7 +46,7 @@ function Header() {
                     className="hover:text-gray-200 cursor-pointer"
                     key={account.key}
                   >
-                    <p>{account.name}</p>
+                    <a>{account.name}</a>
                   </a>
                 ))}
               </ul>
@@ -98,21 +98,21 @@ function Header() {
               </nav>
               <nav className=" pt-5 md:p-0 lg:p-0">
                 <ul className="flex flex-col items-center text-center gap-4">
-                  <li className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]">
+                  <a className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]">
                     ABOUT
-                  </li>
-                  <li className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]">
+                  </a>
+                  <a className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]">
                     CONTACT US
-                  </li>
-                  <li className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]">
+                  </a>
+                  <a className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]">
                     $0.00
-                  </li>
-                  <li className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center">
+                  </a>
+                  <a className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center">
                     <GiShoppingBag />
-                  </li>
-                  <li className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center">
+                  </a>
+                  <a className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center">
                     <FaUser />
-                  </li>
+                  </a>
                 </ul>
               </nav>
             </div>
