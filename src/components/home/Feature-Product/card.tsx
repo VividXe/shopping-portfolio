@@ -18,6 +18,7 @@ function Card({ products }: { products: Products[] }) {
           className="flex flex-col items-center md:items-start gap-3.5 text-lg w-96 h-[500px] p-2 sm:w-full shadow-md bg-white"
         >
           <Image
+            loading="lazy"
             src={product.image}
             alt={product.name}
             width={400}

@@ -6,6 +6,7 @@ function OfferCard() {
     <div className="flex flex-col items-center lg:flex-row gap-8 container mx-auto p-10">
       <a href="/detail" className="relative">
         <Image
+          loading="lazy"
           src="/women-fashion-free-img.jpg"
           width={400}
           height={400}
@@ -25,6 +26,7 @@ function OfferCard() {
       </a>
       <a href="/detail" className="relative">
         <Image
+          loading="lazy"
           src="/men-fashion-free-img.jpg"
           width={400}
           height={400}
@@ -44,6 +46,7 @@ function OfferCard() {
       </a>
       <a href="/detail" className="relative">
         <Image
+          loading="lazy"
           src="/footwear-free-img.jpg"
           width={400}
           height={400}
