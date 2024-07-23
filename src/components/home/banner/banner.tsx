@@ -8,7 +8,7 @@ function Banner() {
         backgroundImage: `url('/home-new-bg-free-img.jpg')`,
       }}
     >
-      <div className="w-full md:full lg:w-1/2 h-full flex flex-col justify-center p-10">
+      <div className="w-full  md:full lg:w-1/2 h-full flex flex-col justify-center p-10">
         <h1 className="text-5xl leading-relaxed">
           Raining Offers For Hot Summer!
         </h1>

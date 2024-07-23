@@ -1,16 +1,12 @@
-import React from "react";
+import Footer from "./footer/footer";
 import Header from "./header/header";
-import Banner from "../home/banner/banner";
-import OfferCard from "../home/banner/offerCard/offerCard";
-import FeatureProduct from "../home/Feature-Product/featureProduct";
 
-function Layouts() {
+function Layouts({ children }: { children: React.ReactNode }) {
   return (
-    <div className="max-w-screen-2xl mx-auto">
+    <div>
       <Header />
-      <Banner />
-      <OfferCard />
-      <FeatureProduct />
+      {children}
+      <Footer />
     </div>
   );
 }
