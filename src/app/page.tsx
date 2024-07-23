@@ -7,13 +7,11 @@ import Layouts from "@/components/layouts";
 export default function Home() {
   return (
     <Layouts>
-      <div className="max-w-screen-2xl mx-auto">
-        <Banner />
-        <OfferCard />
-        <FeatureProduct />
-        <Feature />
-        <Sale />
-      </div>
+      <Banner />
+      <OfferCard />
+      <FeatureProduct />
+      <Feature />
+      <Sale />
     </Layouts>
   );
 }

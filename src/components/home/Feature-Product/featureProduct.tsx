@@ -1,3 +1,4 @@
+import Pager from "@/components/pager";
 import Card from "./card";
 const products = [
   {
@@ -83,9 +84,13 @@ const products = [
 ];
 function FeatureProduct() {
   return (
-    <div className="bg-gray-50 text-black mt-10">
-      <h1 className="text-center text-4xl p-20">Featured Products</h1>
-      <Card products={products} />
+    <div className="bg-red-50 w-full text-black mt-10">
+      <Pager>
+        <h1 className="text-center text-4xl p-20">
+          Featured Products
+        </h1>
+        <Card products={products} />
+      </Pager>
     </div>
   );
 }
