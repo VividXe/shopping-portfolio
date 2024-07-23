@@ -12,7 +12,8 @@ function Card({ products }: { products: Products[] }) {
   return (
     <div className="grid items-center justify-center grid-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-8 p-10">
       {products.map((product) => (
-        <div
+        <a
+          href="#"
           key={product.id}
           className="flex flex-col items-center md:items-start gap-3 text-lg w-96 p-3 sm:w-full shadow-md"
         >
@@ -27,7 +28,7 @@ function Card({ products }: { products: Products[] }) {
           <h1 className="text-gray-400">{product.name}</h1>
           <p>${product.price}</p>
           <CiStar />
-        </div>
+        </a>
       ))}
     </div>
   );

@@ -35,19 +35,22 @@ function Header() {
       <div className="flex items-center justify-between p-10 max-w-screen-2xl mx-auto">
         <div className="flex items-center gap-10">
           <div>
-            <h1 className="text-4xl font-mono">DHK</h1>
+            <a href="#" className="text-4xl font-mono">
+              DHK
+            </a>
           </div>
 
           <div className="hidden md:flex lg:flex">
             <nav>
               <ul className="flex items-center gap-4 ">
                 {accounts.map((account) => (
-                  <li
+                  <a
+                    href="#"
                     className="hover:text-gray-200 cursor-pointer"
                     key={account.key}
                   >
                     <p>{account.name}</p>
-                  </li>
+                  </a>
                 ))}
               </ul>
             </nav>
@@ -57,21 +60,36 @@ function Header() {
         <div className="hidden md:block lg:block">
           <nav>
             <ul className="flex items-center gap-4">
-              <li className="hover:text-gray-200 cursor-pointer">
+              <a
+                href="#"
+                className="hover:text-gray-200 cursor-pointer"
+              >
                 ABOUT
-              </li>
-              <li className="hover:text-gray-200 cursor-pointer">
+              </a>
+              <a
+                href="#"
+                className="hover:text-gray-200 cursor-pointer"
+              >
                 CONTACT US
-              </li>
-              <li className="hover:text-gray-200 cursor-pointer">
+              </a>
+              <a
+                href="#"
+                className="hover:text-gray-200 cursor-pointer"
+              >
                 $0.00
-              </li>
-              <li className="hover:text-gray-200 cursor-pointer">
+              </a>
+              <a
+                href="#"
+                className="hover:text-gray-200 cursor-pointer"
+              >
                 <GiShoppingBag />
-              </li>
-              <li className="hover:text-gray-200 cursor-pointer">
+              </a>
+              <a
+                href="#"
+                className="hover:text-gray-200 cursor-pointer"
+              >
                 <FaUser />
-              </li>
+              </a>
             </ul>
           </nav>
         </div>
