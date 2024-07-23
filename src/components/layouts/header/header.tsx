@@ -71,12 +71,12 @@ function Header() {
             >
               $0.00
             </a>
-            <a href="/cart">
+            <button>
               <GiShoppingBag className="hover:text-gray-200 cursor-pointer" />
-            </a>
-            <a href="/user">
+            </button>
+            <button>
               <FaUser className="hover:text-gray-200 cursor-pointer" />
-            </a>
+            </button>
           </div>
         </div>
 
@@ -119,12 +119,12 @@ function Header() {
                   >
                     $0.00
                   </a>
-                  <a href="/cart">
+                  <button>
                     <GiShoppingBag className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center" />
-                  </a>
-                  <a href="/user">
+                  </button>
+                  <button>
                     <FaUser className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center" />
-                  </a>
+                  </button>
                 </div>
               </nav>
             </div>
