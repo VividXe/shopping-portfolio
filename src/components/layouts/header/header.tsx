@@ -71,10 +71,10 @@ function Header() {
             >
               $0.00
             </a>
-            <button>
+            <button aria-label="cart">
               <GiShoppingBag className="hover:text-gray-200 cursor-pointer" />
             </button>
-            <button>
+            <button aria-label="user">
               <FaUser className="hover:text-gray-200 cursor-pointer" />
             </button>
           </div>
@@ -119,10 +119,10 @@ function Header() {
                   >
                     $0.00
                   </a>
-                  <button>
+                  <button aria-label="cart">
                     <GiShoppingBag className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center" />
                   </button>
-                  <button>
+                  <button aria-label="user">
                     <FaUser className="px-4 w-full py-2 text-sm hover:bg-[#619bbd] flex justify-center" />
                   </button>
                 </div>
