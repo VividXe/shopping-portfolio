@@ -15,7 +15,7 @@ function Card({ products }: { products: Products[] }) {
         <a
           href={product.name}
           key={product.id}
-          className="flex flex-col items-center md:items-start gap-3.5 text-lg w-96 h-[500px] p-2 sm:w-full shadow-md bg-white"
+          className="flex flex-col items-center md:items-start gap-3.5 text-lg w-96 p-3 sm:w-full shadow-md bg-white"
         >
           <Image
             loading="lazy"
@@ -25,7 +25,7 @@ function Card({ products }: { products: Products[] }) {
             height={200}
             className="py-2"
           />
-          <h1 className="text-xl truncate w-96">{product.title}</h1>
+          <h1 className="text-xl">{product.title}</h1>
           <h1 className="text-gray-700">{product.name}</h1>
           <p>${product.price}</p>
           <CiStar className="text-xl text-yellow-400" />

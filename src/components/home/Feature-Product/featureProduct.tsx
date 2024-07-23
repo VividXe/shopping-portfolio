@@ -51,7 +51,7 @@ const products = [
   },
   {
     id: 7,
-    title: "Boho Bangle Bracelet",
+    title: "Boho Bangle",
     name: "Accessories",
     price: 700,
     image:
