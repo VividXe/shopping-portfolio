@@ -38,56 +38,52 @@ function Header() {
             DHK
           </a>
           <div className="hidden md:flex lg:flex">
-            <nav>
-              <div className="flex items-center gap-4">
-                {accounts.map((account) => (
-                  <div
-                    className="hover:text-gray-200 cursor-pointer"
-                    key={account.key}
-                  >
-                    <a href={account.name}>{account.name}</a>
-                  </div>
-                ))}
-              </div>
-            </nav>
+            <div className="flex items-center gap-4">
+              {accounts.map((account) => (
+                <div
+                  className="hover:text-gray-200 cursor-pointer"
+                  key={account.key}
+                >
+                  <a href={account.name}>{account.name}</a>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
         <div className="hidden md:block lg:block">
-          <nav>
-            <div className="flex items-center gap-4">
-              <a
-                href="/about"
-                className="hover:text-gray-200 cursor-pointer"
-              >
-                ABOUT
-              </a>
-              <a
-                href="/contact"
-                className="hover:text-gray-200 cursor-pointer"
-              >
-                CONTACT US
-              </a>
-              <a
-                href="/wallet"
-                className="hover:text-gray-200 cursor-pointer"
-              >
-                $0.00
-              </a>
-              <a
-                href="/cart"
-                className="hover:text-gray-200 cursor-pointer"
-              >
-                <GiShoppingBag />
-              </a>
-              <a
-                href="/user"
-                className="hover:text-gray-200 cursor-pointer"
-              >
-                <FaUser />
-              </a>
-            </div>
-          </nav>
+          <div className="flex items-center gap-4">
+            <a
+              href="/about"
+              className="hover:text-gray-200 cursor-pointer"
+            >
+              ABOUT
+            </a>
+            <a
+              href="/contact"
+              className="hover:text-gray-200 cursor-pointer"
+            >
+              CONTACT US
+            </a>
+            <a
+              href="/wallet"
+              className="hover:text-gray-200 cursor-pointer"
+            >
+              $0.00
+            </a>
+            <a
+              href="/cart"
+              className="hover:text-gray-200 cursor-pointer"
+            >
+              <GiShoppingBag />
+            </a>
+            <a
+              href="/user"
+              className="hover:text-gray-200 cursor-pointer"
+            >
+              <FaUser />
+            </a>
+          </div>
         </div>
 
         <IoMenuSharp
@@ -98,19 +94,18 @@ function Header() {
         <div className="absolute block md:hidden lg:hidden text-white w-full">
           {isOpen && (
             <div className="absolute mt-5 w-[75%] bg-[#277eb0] rounded-lg shadow-lg">
-              <nav>
-                <div className="flex flex-col items-center text-center gap-4">
-                  {accounts.map((account) => (
-                    <div
-                      className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]"
-                      key={account.key}
-                    >
-                      <a href={account.name}>{account.name}</a>
-                    </div>
-                  ))}
-                </div>
-              </nav>
-              <nav className=" pt-5 md:p-0 lg:p-0">
+              <div className="flex flex-col items-center text-center gap-4">
+                {accounts.map((account) => (
+                  <div
+                    className="px-4 w-full py-2 text-sm hover:bg-[#619bbd]"
+                    key={account.key}
+                  >
+                    <a href={account.name}>{account.name}</a>
+                  </div>
+                ))}
+              </div>
+
+              <nav className="pt-5 md:p-0 lg:p-0">
                 <div className="flex flex-col items-center text-center gap-4">
                   <a
                     href="/about"
