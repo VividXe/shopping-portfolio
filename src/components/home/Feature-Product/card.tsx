@@ -26,7 +26,7 @@ function Card({ products }: { products: Products[] }) {
             className="py-2"
           />
           <h1 className="text-xl truncate w-96">{product.title}</h1>
-          <h1 className="text-gray-400">{product.name}</h1>
+          <h1 className="text-gray-700">{product.name}</h1>
           <p>${product.price}</p>
           <CiStar className="text-xl text-yellow-400" />
           <button className="border bg-[#2B7FAF] rounded-md hover:bg-[#53829d] text-white border-white py-2 px-4">
