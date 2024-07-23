@@ -15,7 +15,7 @@ function Card({ products }: { products: Products[] }) {
         <a
           href="#"
           key={product.id}
-          className="flex flex-col items-center md:items-start gap-3 text-lg w-96 p-3 sm:w-full shadow-md"
+          className="flex flex-col items-center md:items-start gap-3.5 text-lg w-96 h-[500px] p-2 sm:w-full shadow-md bg-white"
         >
           <Image
             src={product.image}
@@ -24,10 +24,13 @@ function Card({ products }: { products: Products[] }) {
             height={200}
             className="py-2"
           />
-          <h1 className="text-xl">{product.title}</h1>
+          <h1 className="text-xl truncate w-96">{product.title}</h1>
           <h1 className="text-gray-400">{product.name}</h1>
           <p>${product.price}</p>
-          <CiStar />
+          <CiStar className="text-xl text-yellow-400" />
+          <button className="border bg-[#2B7FAF] rounded-md hover:bg-[#53829d] text-white border-white py-2 px-4">
+            Add to Cart
+          </button>
         </a>
       ))}
     </div>
