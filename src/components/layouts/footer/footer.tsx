@@ -2,31 +2,51 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="grid grid-cols-5 text-black h-[450px] p-10">
-      <div className="col-span-2 flex flex-col gap-5 items-start justify-center">
+    <div className="flex flex-wrap gap-5 lg:justify-between text-black h-[450px] p-10">
+      <div className="flex flex-col gap-5 items-start justify-center">
         <a href="/home" className="text-3xl font-bold">
           DHK
         </a>
         <h1 className="text-2xl">The best look anytime, anywhere.</h1>
       </div>
-      <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-600 text-lg">
+      <div className="flex flex-col justify-center gap-4 text-gray-600 text-lg">
         <h1 className="text-2xl text-black"> For Her</h1>
         <div className="flex flex-col gap-1">
-          <a href="/jeans"> Tops and Shirts</a>
-          <a href="/jacket"> Women Jackets</a>
-          <a href="/jeans"> Jeans </a>
-          <a href="/heels"> Heels and Flats</a>
-          <a href="/accessories"> Women Accessories</a>
+          <a className="hover:text-gray-400" href="/jeans">
+            Tops and Shirts
+          </a>
+          <a className="hover:text-gray-400" href="/jacket">
+            Women Jackets
+          </a>
+          <a className="hover:text-gray-400" href="/jeans">
+            Jeans{" "}
+          </a>
+          <a className="hover:text-gray-400" href="/heels">
+            Heels and Flats
+          </a>
+          <a className="hover:text-gray-400" href="/accessories">
+            Women Accessories
+          </a>
         </div>
       </div>
-      <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-600 text-lg">
+      <div className="flex flex-col justify-center gap-4 text-gray-600 text-lg">
         <h1 className="text-2xl text-black"> For Him</h1>
         <div className="flex flex-col gap-1">
-          <a href="/jeans"> Men Jeans </a>
-          <a href="/shirt"> Men Shirts </a>
-          <a href="/shoes"> Men Shoes</a>
-          <a href="/jacket"> Men Jackets</a>
-          <a href="/accessories"> Men Accessories</a>
+          <a className="hover:text-gray-400" href="/jeans">
+            Men Jeans
+          </a>
+          <a className="hover:text-gray-400" href="/shirt">
+            Men Shirts
+          </a>
+          <a className="hover:text-gray-400" href="/shoes">
+            Men Shoes
+          </a>
+          <a className="hover:text-gray-400" href="/jacket">
+            Men Jackets
+          </a>
+          <a className="hover:text-gray-400" href="/accessories">
+            Men Accessories
+          </a>
         </div>
       </div>
 
