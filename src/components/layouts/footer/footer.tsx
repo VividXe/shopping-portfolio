@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-wrap gap-5 lg:justify-between text-black h-[450px] p-10">
+    <div className="flex flex-wrap gap-5 lg:justify-between text-black h-auto lg:h-[450px] p-10 border-b">
       <div className="flex flex-col gap-5 items-start justify-center">
         <a href="/home" className="text-3xl font-bold">
           DHK
