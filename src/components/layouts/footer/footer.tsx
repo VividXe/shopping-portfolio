@@ -12,21 +12,21 @@ function Footer() {
       <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-400 text-lg">
         <h1 className="text-2xl text-black"> For Her</h1>
         <div className="flex flex-col gap-1">
-          <h1> Jeans </h1>
-          <h1> Tops and Shirts</h1>
-          <h1> Women Jackets</h1>
-          <h1> Heels and Flats</h1>
-          <h1> Women Accessories</h1>
+          <a href="/jeans"> Tops and Shirts</a>
+          <a href="/jacket"> Women Jackets</a>
+          <a href="/jeans"> Jeans </a>
+          <a href="/heels"> Heels and Flats</a>
+          <a href="/accessories"> Women Accessories</a>
         </div>
       </div>
       <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-400 text-lg">
         <h1 className="text-2xl text-black"> For Him</h1>
         <div className="flex flex-col gap-1">
-          <h1> Men Jeans </h1>
-          <h1> Men Shirts </h1>
-          <h1> Men Shoes</h1>
-          <h1> Men Jackets</h1>
-          <h1> Men Accessories</h1>
+          <a href="/jeans"> Men Jeans </a>
+          <a href="/shirt"> Men Shirts </a>
+          <a href="/shoes"> Men Shoes</a>
+          <a href="/jacket"> Men Jackets</a>
+          <a href="/accessories"> Men Accessories</a>
         </div>
       </div>
 
