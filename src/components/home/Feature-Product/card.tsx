@@ -29,7 +29,7 @@ function Card({ products }: { products: Products[] }) {
           <h1 className="text-gray-700">{product.name}</h1>
           <p>${product.price}</p>
           <CiStar className="text-xl text-yellow-400" />
-          <button className="border border-gray-200 rounded-md hover:bg-gray-200 text-black py-2 px-4">
+          <button className="border border-gray-200 rounded-md hover:bg-gray-200 text-black py-2 text-xs px-4">
             Add to Cart
           </button>
         </a>
