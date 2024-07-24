@@ -3,7 +3,7 @@ import Button from "@/components/button/button";
 function Banner() {
   return (
     <div
-      className="bg-cover bg-center h-[88vh]"
+      className="bg-cover h-[88vh]"
       style={{
         backgroundImage: `url('/home-new-bg-free-img.jpg')`,
       }}
