@@ -9,7 +9,7 @@ function Footer() {
         </a>
         <h1 className="text-2xl">The best look anytime, anywhere.</h1>
       </div>
-      <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-400 text-lg">
+      <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-600 text-lg">
         <h1 className="text-2xl text-black"> For Her</h1>
         <div className="flex flex-col gap-1">
           <a href="/jeans"> Tops and Shirts</a>
@@ -19,7 +19,7 @@ function Footer() {
           <a href="/accessories"> Women Accessories</a>
         </div>
       </div>
-      <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-400 text-lg">
+      <div className="col-span-1 flex flex-col justify-center gap-4 text-gray-600 text-lg">
         <h1 className="text-2xl text-black"> For Him</h1>
         <div className="flex flex-col gap-1">
           <a href="/jeans"> Men Jeans </a>
