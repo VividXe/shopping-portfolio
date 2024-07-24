@@ -31,7 +31,7 @@ function Header() {
   };
 
   return (
-    <div className="bg-black">
+    <div className="bg-[#1f648b]">
       <div className="flex items-center justify-between p-10 max-w-screen-2xl mx-auto">
         <div className="flex items-center gap-10">
           <a href="/home" className="text-4xl font-mono">
